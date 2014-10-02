@@ -1,0 +1,90 @@
+/* Document CSS */
+@charset "utf-8";
+
+.content{
+	max-width:1000px !important;
+	height: 100%;
+	display: block;
+	width: 100%;	
+}
+
+.rower > .col {
+	margin:3px;
+	background-color: pink;
+	
+	
+	min-width: 200px;
+	min-height: 250px;
+	
+	
+	max-height:250px;
+	max-width:300px;
+	float:left;
+	overflow:hidden;
+	
+}
+
+@media(max-width:940px){
+	/*
+        .rower > .col {
+		max-height:0px !important;
+		max-width:250px !important;
+	}
+        */
+}
+
+.content{
+	margin:10% auto;
+}
+.rower{
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+	text-align:center;
+}
+
+span{
+	margin: 0 auto;
+	
+}
+
+.cover{
+	height:5px;
+	position:absolute;
+	z-index: 2;
+	background-color:rgba(0,0,0,1);	
+	border-bottom: 1px solid grey;
+	
+}
+.trigger{
+	position:absolute;
+	z-index: 3;
+	background-color:transparent;	
+	
+}
+.textMessage{
+	opacity:0;
+	padding:5px;
+	max-width:250px;
+	margin-top: 40%;
+	text-align:left;
+	vertical-align:bottom;
+	color: white;
+	font-size: 20px;
+	font-weight:400;
+}
+.cover > img{
+	position:absolute;
+	left:0px;
+	margin-top:2%;
+	opacity:0;
+	float: left;
+	width: 50px;
+	border: 2px solid white;
+	margin-top: 10px;
+}
+
+.tile{
+        border: 2px dashed white; 
+    
+}
